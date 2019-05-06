@@ -1,33 +1,42 @@
 .app {
   display: flex;
   align-content: center;
-  margin: 10px 430px 0 450px;
+  margin: 10px 440px 0 470px;
   padding: 4px;
-  background-image: url("https://cbsbaltimore.files.wordpress.com/2016/11/category_weather_500x500.png?w=310&h=310&crop=1");
-  /* background-color: rgb(56, 128, 221); */
+  background-image: url("https://cdn1.iconfinder.com/data/icons/weather-filled-two-color/614/429_-_Sunny-512.png");
+  background-color: rgb(158, 159, 160);
+  background-size: 200px;
+  background-repeat: no-repeat;
   height: 300px;
   border-radius: 4px;
 }
 .app {
-  border: 1px solid rgb(19, 18, 18);
+  border: 1px solid rgb(128, 127, 127);
 }
 
 input {
-  width: 50%;
-  border-radius: 6px;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid grey;
 }
 button {
-  border-radius: 6px;
-  background-color: rgb(235, 235, 241);
-  color: rgb(59, 59, 59);
+  background: #2196f3;
+  color: white;
+  font-size: 14px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  cursor: pointer;
   font-style: italic;
 }
 .input > button:hover {
-  background-color: rgb(47, 44, 230);
+  background-color: rgb(106, 106, 112);
   cursor: pointer;
   transition: background-color 0.3s;
   color: aliceblue;
 }
-.cloud {
-  color: rgb(232, 231, 236);
+.input > p {
+  color: rgb(237, 243, 243);
+}
+.err {
+  color: red;
 }

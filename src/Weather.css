@@ -11,13 +11,13 @@ img {
   border: 3px solid white;
 } */
 .pressure {
-  color: rgb(239, 245, 245);
+  color: rgb(74, 7, 80);
 }
 .humidity {
-  color: rgb(237, 243, 243);
+  color: rgb(7, 80, 11);
 }
 .temperature {
-  color: rgb(228, 236, 236);
+  color: rgb(80, 34, 7);
 }
 /* .all {
   border-radius: 4px;
